@@ -1,0 +1,92 @@
+
+.corporate-landing-page {
+    position: relative;
+    padding: 20px; /* Adjust as needed */
+    
+  }
+  
+  .corporate-landing-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://th.bing.com/th/id/OIP.bHf3nlTH_9n1fI_8fafhXgHaE8?w=291&h=194&c=7&r=0&o=5&dpr=2&pid=1.7"); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* Adjust opacity of the background */
+    z-index: -1; /* Ensure it stays behind the content */
+  }
+  
+  .corporate-heading, .corporate-description, .benifits, .benifits-list, .subscribe {
+    position: relative; /* Ensure content is above the pseudo-element */
+    z-index: 1; /* Keeps content above the background */
+  }
+  .corporate-heading{
+    font-family: "DomaineDisplay";
+    font-size: 2.1rem;
+  }
+  .corporate-description{
+    font-family: "Roboto";
+    font-size: 0.95rem;
+  }
+  .holding-container{
+    padding-top: 2rem;
+  }
+  .subscribe{
+    outline: none;
+    background: transparent;
+    border: none;
+    border:3px solid #4f8fa6;
+    border-radius: 40px;
+    height: 4.5rem;
+    color: #3b8eac;
+    font-weight: 600;
+    text-align: center;
+
+  }
+  .subscribe-container{
+    text-align: center;
+  }
+  .benifits{
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #1d1f21;
+  }
+  .each-benifit{
+    color: #363534;
+    font-family: "Roboto";
+    line-height: 2rem;
+  }
+  .outer{
+    background-color: #5fb1cf;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner{
+    padding: 9px;
+    margin: 0px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 1rem;
+    box-sizing: content-box;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+
+  }
+  .consult{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); 
+    padding: 10px;
+    width: 100%;
+    font-family: "Roboto";
+
+}
+.heading-steps{
+    font-family: "Roboto";
+    margin-bottom: 15px;
+}

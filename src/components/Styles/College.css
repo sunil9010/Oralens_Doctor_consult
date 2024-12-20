@@ -1,0 +1,92 @@
+
+.college-landing-page {
+    position: relative;
+    padding: 20px; /* Adjust as needed */
+    
+  }
+  
+  .college-landing-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://latrobefamilydental.com.au/wp-content/uploads/2022/09/img-What-will-you-receive_.jpg"); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2; /* Adjust opacity of the background */
+    z-index: -1; /* Ensure it stays behind the content */
+  }
+  
+  .college-heading, .college-description, .benifits, .benifits-list, .subscribe {
+    position: relative; /* Ensure content is above the pseudo-element */
+    z-index: 1; /* Keeps content above the background */
+  }
+  .college-heading{
+    font-family: "DomaineDisplay";
+    font-size: 2.1rem;
+  }
+  .college-description{
+    font-family: "Roboto";
+    font-size: 0.95rem;
+  }
+  .holding-container{
+    padding-top: 2rem;
+  }
+  .subscribe{
+    outline: none;
+    background: transparent;
+    border: none;
+    border:3px solid #87b0bf;
+    border-radius: 40px;
+    height: 4.5rem;
+    color: #5fb1cf;
+    font-weight: 600;
+    text-align: center;
+
+  }
+  .subscribe-container{
+    text-align: center;
+  }
+  .benifits{
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #1d1f21;
+  }
+  .each-benifit{
+    color: #363534;
+    font-family: "Roboto";
+    line-height: 2rem;
+  }
+  .outer{
+    background-color: #5fb1cf;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner{
+    padding: 9px;
+    margin: 0px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 1rem;
+    box-sizing: content-box;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+
+  }
+  .consult{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); 
+    padding: 10px;
+    width: 100%;
+    font-family: "Roboto";
+
+}
+.heading-steps{
+    font-family: "Roboto";
+    margin-bottom: 15px;
+}

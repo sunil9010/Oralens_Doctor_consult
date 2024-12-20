@@ -1,0 +1,227 @@
+.side-heading{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.why-choose-container{
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.why-choose-cards-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #092037; /* Text color - white */
+    font-family: 'Poppins', sans-serif; /* Super modern font */
+    padding: 15px 10px; /* Extra padding for breathing room */
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    border-radius: 10px; /* More rounded corners for smoothness */
+    /* background: linear-gradient(135deg, #6C63FF, #5CE1E6); Modern gradient background */
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    cursor: pointer; /* Makes it clear the card is interactive */
+}
+
+.why-choose-cards-1:hover {
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2), 
+                0px 6px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); /* Lift effect */
+    color: #0c0c34; /* Slightly brighter text */
+    font-weight: 600;
+}
+
+
+.why-choose-cards-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #092037;
+    font-family: 'Poppins', sans-serif; /* Super modern font */
+    padding: 15px 10px; /* Extra padding for breathing room */
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    border-radius: 10px; /* More rounded corners for smoothness */
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    cursor: pointer; /* Makes it clear the card is interactive */
+}
+
+.why-choose-cards-2:hover {
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2), 
+                0px 6px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); /* Lift effect */
+    color: #0c0c34; /* Slightly brighter text */
+    font-weight: 600;
+}
+
+.why-choose-cards-2 span{
+    margin-left: 10px;
+}
+.why-choose-cards-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #092037;
+    font-family: 'Poppins', sans-serif; /* Super modern font */
+    padding: 15px 10px; /* Extra padding for breathing room */
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    border-radius: 10px; /* More rounded corners for smoothness */
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    cursor: pointer; /* Makes it clear the card is interactive */
+}
+.why-choose-cards-3:hover {
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2), 
+                0px 6px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); /* Lift effect */
+    color: #0c0c34; /* Slightly brighter text */
+    font-weight: 600;
+}
+.why-choose-cards-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif; 
+    color: #092037;
+    font-size: 1.2rem;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out,transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    cursor: pointer; 
+}
+.why-choose-cards-4:hover {
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2), 
+                0px 6px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); /* Lift effect */
+    color: #0c0c34; /* Slightly brighter text */
+    font-weight: 600;
+}
+.why-choose-cards-4 span{
+    margin-left: 10px;
+}
+.hr-line-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.line{
+    border: 2px solid rgb(1, 21, 31); /* White border for the line */
+    height: 40px;
+    margin: 10px ; /* Spacing around the line */
+    
+}
+.icon{
+    font-size: 2.3rem;
+   margin: 5px;
+}
+.icon-stet{
+  font-size: 4rem;
+   margin: 10px;
+}
+.core-services-container{
+    flex-wrap: nowrap;
+    padding-left: 0px;
+}
+.core-services-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 190px;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);/* Negative vertical offset for lifting */
+    transition: box-shadow 0.3s ease; /* Smooth transition effect */
+      
+}
+.core-services-cards:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Increase lifting on hover */
+  }
+
+.core-services-cards strong{
+    font-size: 1.5rem;
+}
+.core-services-cards span{
+    font-size: 1rem;
+}
+.icon-core{
+    font-size: 2.5rem;
+}
+.heading-sections{
+    font-family: DomaineDisplay;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 24px;
+    width: 100%;
+    text-align: center;
+}
+.side-heading {
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+    font-size: 1.5rem; /* Large heading size */
+    font-weight: 700; /* Bold for emphasis */
+    color: #000005; /* Primary color for branding */
+    text-align: center; /* Centered heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+    text-transform: capitalize; /* Stylish text transformation */
+    letter-spacing: 1px; /* Slight spacing for clean look */
+}
+
+
+@media screen and (min-width:960px){
+
+    .why-choose-align-container{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .why-choose-container{
+        width: 100%;
+       
+    }
+    .choose-image{
+        background-image: url("https://res.cloudinary.com/dufyrxyey/image/upload/v1734328304/th_dledpz.jpg");
+        background-size: cover;
+        height: 200px;
+    }
+    .why-choose-cards-1{
+        width:100%;
+       
+    }
+    .why-choose-cards-2{
+        width:100%;
+        
+    }
+    .why-choose-cards-3{
+       
+        width:100%;
+    }
+    .why-choose-cards-4{
+        
+        width:100%;
+    }
+    .core-services-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .core-services-cards{
+        width: 46%;
+    }
+    .side-heading{
+        font-size: 1.8rem;
+        color: #000061;
+    }
+}

@@ -1,0 +1,110 @@
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-top:2rem;
+    background-size: cover;
+    transition: box-shadow 0.3s ease-in-out,transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    cursor: pointer; 
+    height: auto;
+    border-radius: 5px;
+    
+  } 
+  .hero-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* Adjust opacity of the background */
+    z-index: -1; /* Ensure it stays behind the content */
+
+  }
+  .hero-section:hover {
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2), 
+                0px 6px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); /* Lift effect */
+    color: #3aa5e8; /* Slightly brighter text */
+}
+  
+  .hero-section h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color:#043f7a;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.6;
+    font-weight: 600;
+    color: rgb(8, 59, 48);
+  }
+  
+  /* Add Animation to Text */
+  .hero-section h1,
+  .hero-section p {
+    animation: fadeIn 2s ease-in-out;
+  }
+  .dental-image{
+    width: 80%;
+    border-radius: 5px;
+  }
+  .carousel-item {
+    position: relative;
+    border-top-left-radius: 15px; /* Rounded top left */
+    border-top-right-radius: 15px; /* Rounded top right */
+    overflow: hidden; /* Ensures children respect border-radius */
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 300px;
+    display: block;
+    border-top-left-radius: 15px; /* Image respects rounded corners */
+    border-top-right-radius: 15px;
+  }
+  @media screen and (min-width:900px) {
+    .carousel-image{
+      height: 500px;
+    }
+    
+  }
+  
+  .carousel-caption p {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    bottom: 1; /* Position at bottom */
+  
+  padding: 10px 15px;
+  text-align: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+  font-family:"Roboto";
+  border-bottom-left-radius: 15px; /* Bottom corners remain sharp */
+  border-bottom-right-radius: 15px;
+  }

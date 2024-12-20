@@ -1,0 +1,176 @@
+.school-button{
+    background-color:#556a6f;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 15px 20px 15px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.college-button{
+    background-color:#95835b;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 15px 20px 15px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-button{
+    background-color:#594f5a;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 15px 20px 15px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.strong-selection{
+    color: #ffffffff;
+    font-size: 2rem;
+    margin: 0;
+    font-family: "DomaineDisplay";
+}
+.span-cat{
+    color: #ffffffff;
+    font-size: 1.2rem;
+    margin-top: 0px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.school-image
+   {
+        display: none;
+
+    }
+.college-image{
+    display: none;
+}
+.corporate-image{
+    display: none;
+}
+
+/* #95835b */
+/* #594f5a */
+@media screen and (min-width:900px){
+    /* .link{
+        width: 300px;
+    } */
+    .buttons-container{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .school-button{
+        align-items: center;
+        border-radius: 20px;
+        color: #fff;
+        cursor: pointer;
+        display: flex ;
+        flex-direction: column;
+        height: 280px;
+        justify-content: flex-end;
+        padding: 28px;
+        position: relative;
+        text-align: center;
+        width: 300px;
+        background-color: #556a6e;
+        box-sizing: border-box;
+    }
+    .school-image{
+        border-radius: 20px;
+        height: 100%;
+        left: 0;
+        opacity: .3;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+        background-color: hsl(0, 0%, 90%);
+        display: block;
+    }
+    .strong-selection{
+        position: relative;
+        font-size: 40px;
+    }
+    .span-cat{
+        position: relative;
+        font-size: 18px;
+    }
+    .college-button{
+        align-items: center;
+        border-radius: 20px;
+        color: #fff;
+        cursor: pointer;
+        display: flex ;
+        flex-direction: column;
+        height: 280px;
+        justify-content: flex-end;
+        padding: 28px;
+        position: relative;
+        text-align: center;
+        width: 300px;
+        background-color: #95835b;
+        box-sizing: border-box;
+    }
+    .college-image{
+        border-radius: 20px;
+        height: 100%;
+        left: 0;
+        opacity: .3;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: block;
+        z-index: 0;
+    }
+
+.employee-button{
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: flex ;
+    flex-direction: column;
+    height: 280px;
+    justify-content: flex-end;
+    padding: 28px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    background-color: #584f5a;
+    box-sizing: border-box;
+}
+.corporate-image{
+    border-radius: 20px;
+    height: 100%;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+    
+}
